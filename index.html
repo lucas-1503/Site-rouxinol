@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class=" logo navbar-brand justify-content-start">
+            <img src="./images/Logo/Banda_Infatil-removebg-preview.png" alt="">
+        </div>
+        <div class="container">  
+            <h1 class="navbar-brand section-title m-0">Banda Rouxinol</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-iten fw-bold">
+                        <a href="#sobre-o-restaurante" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre Nós
+                        </a>
+                    </li>
+                    <li class="nav-iten fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-iten fw-bold">
+                        <a href="#cardapio" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Opções de contratação
+                        </a>
+                    </li>
+                    <li class="nav-iten fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Faça um orçamento
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-o-restaurante">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./images/slides/Slide 11 -2.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/slides/Slide 22-2.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/slides/Slide 33-3.jpg" alt="">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" class="active" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./images/banda.jpg" class="d-block w-100 rounded">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span>a Banda</span></h2>
+                            <p class="pt-3">
+                                A Banda Rouxinol é muito mais do que uma simples trupe musical; somos contadores de histórias por meio da melodia. Nossa essência é inspirada na busca pela magia da infância, resgatando cantigas populares e criando músicas autorais que transcendem gerações. Com um repertório encantador, cores vibrantes e notas que aquecem corações, a Rouxinol se torna o pássaro que canta a alegria, trazendo consigo a promessa de memórias musicais duradouras. Cada nota, cada acorde é um convite para uma jornada mágica, onde a música se torna o fio condutor da nossa narrativa única.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Para todas <span>as ocasioes</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./images/eventos/aniversario 2.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-color fs-4">
+                            <i class="bi bi-balloon-heart"></i>
+                            Aniversários
+                        </h3>
+                        <p>Transforme o aniversário do seu pequeno em um espetáculo mágico! Contrate a Banda Rouxinol para garantir risos, músicas encantadoras e memórias que durarão para sempre. 🎉🎶 #RouxinolEventos #AniversárioInfantil</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/eventos/oficinas.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-color fs-4">
+                            <i class="bi bi-file-music"></i>   
+                            Oficinas
+                        </h3>
+                        <p>
+                            Desperte a criatividade e alegria em seus eventos! Contrate as Oficinas da Rouxinol e proporcione experiências únicas, repletas de aprendizado, diversão e memórias coloridas. 🌈✨ #RouxinolEventos #OficinasCriativas</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/eventos/Eventos escolares.avif" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-color fs-4">
+                            <i class="bi bi-mortarboard-fill"></i>   
+                            Eventos escolares
+                        </h3>
+                        <p>Enriqueça o ambiente escolar com a magia da música e alegria da Banda Rouxinol. Contrate-nos para eventos escolares inesquecíveis, onde a educação se une à diversão, criando memórias musicais para toda a comunidade escolar. 🎓🎶 #RouxinolEventos #EducaçãoeAlegria</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cardapio" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Opções <span class="text-color">de contratação</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-colum nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#rouxinol" class="fw-bold text-start nav-link text-color active">Rouxinol</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#beija-flor" class="fw-bold text-start nav-link text-color ">Beija-flor</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#tucano" class="fw-bold text-start nav-link text-color ">Tucano</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bem-te-vi" class="fw-bold text-start nav-link text-color ">Bem-te-vi</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#arara" class="fw-bold text-start nav-link text-color ">Arara</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="rouxinol">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 " src="./images/cardapio/Rouxinol/29.jpg" alt="">
+                                        <h5 class="text-color fw-bold mt-2">Rouxinol</h5>
+                                        <p>Show da banda Rouxinol, com interação e objetos lúdicos.</p>
+                                        <p>Quatro músicos (Guitarra, bateria, voz e violino) com equipamento de som incluso</p>
+                                        <p>Duração: 45 minutos</p>
+                                        <p class="fw-bold">Valor: R$1200,00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="beija-flor">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 " src="./images/cardapio/Rouxinol/beija-flow.jpg" alt="">
+                                        <h5 class="text-color fw-bold mt-2">Beija-flor</h5>
+                                        <p>Show da banda Rouxinol, com interação e objetos lúdicos</p>
+                                        <p>Três músicos (Guitarra, bateria e voz) com equipamento de som incluso</p>
+                                        <p>Duração: 45 minutos</p>
+                                        <p class="fw-bold">Valor: R$1000,00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tucano">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 " src="./images/cardapio/Rouxinol/tucano.jpg" alt="">
+                                        <h5 class="text-color fw-bold mt-2">Tucano</h5>
+                                        <p>Show da banda Rouxinol, com interação e objetos lúdicos</p>
+                                        <p>Dois músicos (Violão e voz) com equipamento de som incluso</p>
+                                        <p>Duração: 45 minutos</p>
+                                        <p class="fw-bold">Valor: R$850,00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="bem-te-vi">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 " src="./images/cardapio/Rouxinol/bem-te-vi3.png" alt="">
+                                        <h5 class="text-color fw-bold mt-2">Bem-te-vi</h5>
+                                        <p>Oficina de musicalização infantil com interação e objetos lúdicos. Equipamento de som incluso</p>
+                                        <p>Duração: 30 minutos (máx: 30 crianças)</p>
+                                        <p class="fw-bold">Valor: R$450,00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="arara">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 " src="./images/cardapio/Rouxinol/arara.jpg" alt="">
+                                        <h5 class="text-color fw-bold mt-2">Arara</h5>
+                                        <p>Roda musical acústica (brincadeiras musicais de roda) e interação com objetos lúdicos</p>
+                                        <p>Duração: 30 minutos (máx: 30 crianças)</p>
+                                        <p class="fw-bold">Valor: R$400,00</p>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">
+                        Faça <span class="text-color">um orçamento</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-color">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-color">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-color">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-color">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required placeholder="Opção escolhida/Data e horário do Evento"></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-color">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>    
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-color"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-color"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-color"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-color">
+                                <i class="bi bi-cursor-fill"></i>    
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Conde Afonso Celso n 255, Jardim Sumaré - Ribeirão Preto - SP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
