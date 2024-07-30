@@ -86,12 +86,15 @@ body{
 
 .carousel-iten img{
     height: 200px;
+    width: 100%;
 
 }
 
 .tab-pane .row .col-md-3 img{
     height: 150px;
 }
+
+
 
 @media (max-width: 767px) {
     .carousel-item img {
